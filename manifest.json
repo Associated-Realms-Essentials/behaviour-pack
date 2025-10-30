@@ -2,11 +2,11 @@
 	"format_version": 2,
 	"header": {
 		"name": "Associated Realm Essentials",
-		"description": "Version 25.2",
+		"description": "Version 25.3",
 		"uuid": "4c11d363-c9ee-44ac-9450-76ff868f788b",
 		"version": [
 			25,
-			2,
+			3,
 			0
 		],
 		"min_engine_version": [
@@ -17,7 +17,7 @@
 	},
 	"modules": [
 		{
-			"description": "Version 25.2",
+			"description": "Version 25.3",
 			"type": "data",
 			"uuid": "be381c28-4317-46ce-99b3-9e66e4807a9a",
 			"version": [
@@ -43,7 +43,7 @@
 		{
 			"module_name": "resource",
 			"uuid": "d37d9201-8153-48d7-8ed3-b5a60572116b",
-			"version": [5, 5, 0]
+			"version": [5, 6, 0]
 		},
 		{
 			"module_name": "@minecraft/server",
