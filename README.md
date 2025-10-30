@@ -15,14 +15,15 @@
 
 # Customizing chat ranks
 You can give yourself the tag `arerank:{owner} §c§lOwner` witch gives you a nice looking owner chat rank, You can customize this to your liking.
+
 You can even give yourself the tag `arerank:{major} §eSupports MajorRage3367` witch gives you a nice tag with my in-game head on it, Watch how it automatically adds these as chat ranks when you talk in the in-game chat.
 
-You can use whatever section symbol color combination you want, it will work, all the supported {icons} are:
-`{operator_plain}` - Just a normal operator crown.
-`{owner}` - A red operator crown.
-`{regulations}` - A green operator crown.
-`{operator}` - A blue operator crown.
-`{smiley}` - A smiling enderman.
+You can use whatever section symbol color combination you want, it will work, all the supported {icons} are:<br>
+`{operator_plain}` - Just a normal operator crown.<br>
+`{owner}` - A red operator crown.<br>
+`{regulations}` - A green operator crown.<br>
+`{operator}` - A blue operator crown.<br>
+`{smiley}` - A smiling enderman.<br>
 `{major}` - MajorRage3367 (Maragi)'s in-game head, due to the addon originally being created for Clidewood Realm where Maragi is the owner.
 
 # Why "admin1"?
@@ -34,15 +35,15 @@ For best results, always put a set of quotes like `/tag @s add "arefunction:rtp"
 1. `arefunction:rtp` - Randomly teleports the player to random coordinates.
 2. `arefunction:rtpWithCountdown` - Randomly teleports the player to random coordinates with a countdown.
 3. `arefunction:cancelKnockback` - Cancels a players knockback so they cant take knockback.
-4. `areShowMessageGui:(gui title)::(gui description)::(gui button 1 text)::(gui button 2 text)::(gui button 1 command)::(gui button 2 command)` - Creates a simple message dialogue witch prompts the user to choose a option, runs the resulting command on them depending on witch button they choose to press.
-  {newline}, {association}, {user} and/or {q} can be used to import extra information into the gui.
-  {newline} - Creates new lines in the GUI.
-  {association} - The addons association
-  {user} - The user's name who was targeted with the GUI.
+4. `areShowMessageGui:(gui title)::(gui description)::(gui button 1 text)::(gui button 2 text)::(gui button 1 command)::(gui button 2 command)` - Creates a simple message dialogue witch prompts the user to choose a option, runs the resulting command on them depending on witch button they choose to press.<br>
+  {newline}, {association}, {user} and/or {q} can be used to import extra information into the gui.<br>
+  {newline} - Creates new lines in the GUI.<br>
+  {association} - The addons association.<br>
+  {user} - The user's name who was targeted with the GUI.<br>
   {q} > A quote mark because you cant use " in a tag. e.g. tellraw @s {{q}rawtext{q}: \[{q}text{q}: {q}Hello World!{q}\]}
-5. `areEvalMCCommand:say Hello::say World!||say This happened::say Instead.` - A tag that you target to a player that makes them run a bunch of minecraft commands automatically.
-  Interpretation of the example: (pick randomly between ("say Hello" then "say World!") and ("say This happened" then "say Instead."))
-  || - OR symbol
+5. `areEvalMCCommand:say Hello::say World!||say This happened::say Instead.` - A tag that you target to a player that makes them run a bunch of minecraft commands automatically.<br>
+  Interpretation of the example: (pick randomly between ("say Hello" then "say World!") and ("say This happened" then "say Instead."))<br>
+  || - OR symbol<br>
   :: - AND symbol
 6. `arerank:Your chat rank text` - Discussed earlier, gives you a chat rank that shows up in chat, all people without any chat rank tags get `§bMember` by default, there is no way to change this by default.
 ``
