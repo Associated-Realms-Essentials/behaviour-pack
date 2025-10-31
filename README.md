@@ -3,8 +3,8 @@
 2. Install into your minecraft world, server or realm.
 3. Give yourself the "admin1" tag.
 4. Run ">adminui" and then close chat.
-5. In the dialogue that showed up click "Pack Settings",and then click "Rename Association".
-6. In the Rename Association GUI, The text you enter in the textbox determines how the addon will be referenced in commands. For example, if you type "Realm", it will appear as "Realm Essentials" in the commands. Remember to press "Submit" to save your new association.
+5. In the dialogue that showed up click "Pack Settings", and then click "Rename Association".
+6. In the Rename Association GUI, The text you enter in the textbox determines how the addon will be referenced in commands. For example, if you type "Realm Essentials", it will appear as "Realm Essentials" in the commands. Remember to press "Submit" to save your new association.
 7. Run ">adminui" again.
 8. Press "Configure Features".
 9. Click "Join Messages"
