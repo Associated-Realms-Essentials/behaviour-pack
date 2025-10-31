@@ -35,9 +35,17 @@ This home is set using a bed or with /spawnpoint minecraft command.
 
 When a player runs >home in a dimension other than the overworld, it will teleport them back to the overworld and then teleport them to their spawnpoint in the overworld (most likely their bed location), when a player runs >spawn in a dimension other than the overworld, it will teleport them to the world spawn location within the dimension they are currently inside of, this is intended functionality, without it you cant mod your worlds to teleport players to a dedicated spawn setup in another dimension, simply teleport the player once they go to the default spawn point of the world using a skulk-sensor, using a skulk-sensor insures that the users player-model loads before they get teleported to another place in the dimension.
 
+# Why "blocked1" tag?
+This tag allows you to stop someone from using Associated Realms Essentials, such as if they are abusing the commands, We chose "blocked1" because it is unlikely to interfere with other addons.
 
-# Why "admin1"?
-We chose "admin1" to make sure it doesn't interfere with other addons.
+# Why "admin1" tag?
+This tag is for giving people the access to the administration commands that come with Associated Realms Essentials, We chose "admin1" to make sure it doesn't interfere with other addons.
+
+# Why "adminHide1" tag?
+This tag is for hiding other users command usage on your screen. We chose "adminHide1" because we believe it is most fitting for this purpose.
+
+# Why "adminHide2" tag?
+This tag is for hiding alerts on your screen, e.g. blocklog alerts and accesslog alerts, We chose "adminHide2" because we believe it is most fitting for this purpose.
 
 # Tags
 For best results, always put a set of quotes like `/tag @s add "arefunction:rtp"` around the tag so that it runs properly, if you don't understand something, create a Discussion using the tab found on the front page of the github organization.
