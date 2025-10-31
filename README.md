@@ -3,8 +3,8 @@
 2. Install into your minecraft world, server or realm.
 3. Give yourself the "admin1" tag.
 4. Run ">adminui" and then close chat.
-5. In the dialogue that showed up click "Pack Settings",and then click "Rename Association".
-6. In the Rename Association GUI, The text you enter in the textbox determines how the addon will be referenced in commands. For example, if you type "Realm", it will appear as "Realm Essentials" in the commands. Remember to press "Submit" to save your new association.
+5. In the dialogue that showed up click "Pack Settings", and then click "Rename Association".
+6. In the Rename Association GUI, The text you enter in the textbox determines how the addon will be referenced in commands. For example, if you type "Realm Essentials", it will appear as "Realm Essentials" in the commands. Remember to press "Submit" to save your new association.
 7. Run ">adminui" again.
 8. Press "Configure Features".
 9. Click "Join Messages"
@@ -25,6 +25,16 @@ You can use whatever section symbol color combination you want, it will work, al
 `{operator}` - A blue operator crown.<br>
 `{smiley}` - A smiling enderman.<br>
 `{major}` - MajorRage3367 (Maragi)'s in-game head, due to the addon originally being created for Clidewood Realm where Maragi is the owner.
+
+# ">spawn" and ">home"
+The spawn functionality uses the default spawn point of the world.
+Go to your worlds spawn / hub area and run /setworldspawn, now when you or others run >spawn you will get teleported to your default world spawn.
+
+The home functionality uses the players spawnpoint.
+This home is set using a bed or with /spawnpoint minecraft command.
+
+When a player runs >home in a dimension other than the overworld, it will teleport them back to the overworld and then teleport them to their spawnpoint in the overworld (most likely their bed location), when a player runs >spawn in a dimension other than the overworld, it will teleport them to the world spawn location within the dimension they are currently inside of, this is intended functionality, without it you cant mod your worlds to teleport players to a dedicated spawn setup in another dimension, simply teleport the player once they go to the default spawn point of the world using a skulk-sensor, using a skulk-sensor insures that the users player-model loads before they get teleported to another place in the dimension.
+
 
 # Why "admin1"?
 We chose "admin1" to make sure it doesn't interfere with other addons.
