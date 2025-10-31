@@ -47,6 +47,11 @@ This tag is for hiding other users command usage on your screen. We chose "admin
 # Why "adminHide2" tag?
 This tag is for hiding alerts on your screen, e.g. blocklog alerts and accesslog alerts, We chose "adminHide2" because we believe it is most fitting for this purpose.
 
+# Items
+There are some items and entities you have available to you.
+1. The `Floating Text` spawn egg. `/give @s are:floating_text_spawn_egg`. (When used, opens a GUI where you can enter the text and the coordinates).
+2. The `Custom Painting` spawn egg. `/give @s are:custom_painting_spawn_egg`. (When used on the side of a block, it summons the custom painting on the side of the block you placed it on, works like a normal painting item)
+
 # Tags
 For best results, always put a set of quotes like `/tag @s add "arefunction:rtp"` around the tag so that it runs properly, if you don't understand something, create a Discussion using the tab found on the front page of the github organization.
 
